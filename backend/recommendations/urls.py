@@ -12,7 +12,5 @@ urlpatterns = [
     path("chat-lessons/", views.chat_lessons, name="chat-lessons"),
     path("student-chat/", views.student_chat, name="student-chat"),
     path("career-chat/", views.careerchat, name="career-chat"),
-    path("", include(router.urls)),
-]
-
-# router.urls
+    # path("", include(router.urls)),
+]+router.urls
